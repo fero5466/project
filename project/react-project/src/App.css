@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+:root{
+  --white: #fff;
+  --blue:blue;
+  --dark: rgba(255,255,255,0)
+}
+/******************NAVBAR*********************/
+.logo{
+  width: 16.25rem;
+}
+nav a.nav-link{
+  font-size: 0.9rem;
+letter-spacing: 0.0375rem;
+cursor: pointer;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+.navbar-nav > li > a{
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: var(--white) !important;
+  border-top: 0.2rem solid var(--dark);
+}
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 6rem;
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-top: 0.2rem solid var(--blue);
+}
